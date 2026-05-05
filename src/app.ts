@@ -21,3 +21,4 @@ export function buildApp(options: FastifyServerOptions = {}) {
 
   return app;
 }
+const intentionalTypeError: number = "this should be a number";
