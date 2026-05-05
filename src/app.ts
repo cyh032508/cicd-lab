@@ -13,7 +13,7 @@ export function buildApp(options: FastifyServerOptions = {}) {
     };
   });
 
-  app.get(' /health', async () => {
+  app.get('/health', async () => {
     return {
       status: 'ok'
     };
